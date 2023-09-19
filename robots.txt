@@ -1,0 +1,38 @@
+User-agent: *
+Disallow: /wp-admin
+Disallow: /wp-includes
+Disallow: /wp-content/plugins
+Disallow: /wp-content/cache
+Disallow: /wp-content/themes
+Allow: /wp-content/themes/*.css
+Allow: /wp-content/plugins/*.css
+Allow: /wp-content/uploads/*.css
+Allow: /wp-content/themes/*.js
+Allow: /wp-content/plugins/*.js
+Allow: /wp-content/uploads/*.js
+Allow: /wp-includes/css/
+Allow: /wp-includes/js/
+Allow: /wp-includes/images/
+
+User-Agent: Googlebot
+Disallow: /wp-admin
+Disallow: /wp-includes
+Disallow: /wp-content/plugins
+Disallow: /wp-content/cache
+Disallow: /wp-content/themes
+Disallow: /thanks/
+Disallow: /wp-json/
+
+User-agent: Yandex
+Disallow: /wp-admin
+Disallow: /wp-includes
+Disallow: /wp-content/plugins
+Disallow: /wp-content/cache
+Disallow: /wp-content/themes
+Disallow: /thanks/
+Disallow: /wp-json/
+
+Clean-param: etext&url&format&page_id&wpforo&stat-id&test-tag&banner-sizes&format-type&pcodever
+Host: https://galeovl.ru
+ 
+Sitemap: https://galeovl.ru/sitemap.xml
